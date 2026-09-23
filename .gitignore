@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private notes (deployment, DNS, secrets, etc.) — never commit
+HOSTING.md

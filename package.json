@@ -1,7 +1,9 @@
 {
-  "name": "react-app",
+  "name": "yummyvoo-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "YummyVoo marketing site — React + Vite.",
+  "homepage": "https://yummyvoo.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
