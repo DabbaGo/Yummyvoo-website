@@ -128,7 +128,7 @@ export const siteMarkup = `
       <li class="step">
         <div class="node"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg><span class="num">03</span></div>
         <h3>Watch</h3><p>See Kitchen Stories and discover what's happening behind the scenes.</p>
-        <div class="mini m3" aria-hidden="true"><span class="rg"><span class="ph cream" data-fd="bowl w120 l-10 t-10"></span></span><span class="play"><svg class="ic fl"><use href="#i-play"/></svg></span><span class="rg"><span class="ph cream" data-fd="thali w120 l-10 t-10"></span></span><span class="rg off"><span class="ph cream" data-fd="cake w120 l-10 t-10"></span></span></div>
+        <div class="mini m3" aria-hidden="true"><span class="rg"><span class="ph cream" data-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80"></span></span><span class="play"><svg class="ic fl"><use href="#i-play"/></svg></span><span class="rg"><span class="ph cream" data-img="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80"></span></span><span class="rg off"><span class="ph cream" data-img="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80"></span></span></div>
       </li>
       <li class="step">
         <div class="node"><svg class="ic" aria-hidden="true"><use href="#i-cart"/></svg><span class="num">04</span></div>
