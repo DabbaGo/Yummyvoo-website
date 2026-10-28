@@ -17,7 +17,7 @@ import './dashboard.css'
 
 const CATEGORIES = ['Review', 'Order', 'Complaint', 'Compliment', 'Social', 'Other']
 const SOURCES = ['Zomato', 'Swiggy', 'Instagram', 'WhatsApp', 'Direct', 'Other']
-const UI_PASSWORD = import.meta.env.DASHBOARD_PASSWORD || ''
+const UI_PASSWORD = import.meta.env.VITE_DASHBOARD_PASSWORD || ''
 
 const COLORS = {
   positive: '#1aa260',
