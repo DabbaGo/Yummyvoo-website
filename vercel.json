@@ -3,11 +3,10 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/dashboard", "destination": "/index.html" },
-    { "source": "/dashboard/:path*", "destination": "/index.html" }
+    { "source": "/dashboard/:path*", "destination": "/index.html" },
+    { "source": "/dashboard", "destination": "/index.html" }
   ],
   "headers": [
     {
