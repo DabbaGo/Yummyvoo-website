@@ -45,15 +45,15 @@ Google Sheet.
 In the repo root (`yumivoo-site/`), create a `.env.local` file:
 
 ```
-VITE_DASHBOARD_API_URL=https://script.google.com/macros/s/AKfyc.../exec
-VITE_DASHBOARD_API_TOKEN=the-long-random-string-from-step-2
-VITE_DASHBOARD_PASSWORD=some-password-for-the-ui-gate
+DASHBOARD_API_URL=https://script.google.com/macros/s/AKfyc.../exec
+DASHBOARD_API_TOKEN=the-long-random-string-from-step-2
+DASHBOARD_PASSWORD=some-password-for-the-ui-gate
 ```
 
 Restart `npm run dev` after creating `.env.local`.
 
 For **production (Vercel)**: go to your project → Settings → Environment
-Variables and add the same three `VITE_*` keys. Redeploy.
+Variables and add the same three `*` keys. Redeploy.
 
 ## 5. Test
 
@@ -69,9 +69,9 @@ You should see `{"ok":true,"rows":[]}`. 🎉
 
 - The token is a shared secret — anyone with the URL + token can read/write.
   Keep both private. Don't commit `.env.local`.
-- `VITE_*` env vars are embedded into the built JS bundle, so technically
+- `*` env vars are embedded into the built JS bundle, so technically
   anyone who inspects your deployed `/dashboard` can extract the token. For
   a private admin tool this is acceptable; for anything higher-stakes,
   migrate to a real auth system (Supabase / Auth0 / etc.).
-- The `VITE_DASHBOARD_PASSWORD` gate is only a UI speed bump, not real
+- The `DASHBOARD_PASSWORD` gate is only a UI speed bump, not real
   security. The real security boundary is the API token.

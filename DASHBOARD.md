@@ -55,9 +55,9 @@ yumivoo-site/
 
 1. Push the repo as usual (`git push`) — Vercel will auto-deploy.
 2. In Vercel → **Settings → Environment Variables** add:
-   - `VITE_DASHBOARD_API_URL`
-   - `VITE_DASHBOARD_API_TOKEN`
-   - `VITE_DASHBOARD_PASSWORD`
+   - `DASHBOARD_API_URL`
+   - `DASHBOARD_API_TOKEN`
+   - `DASHBOARD_PASSWORD`
 3. Redeploy. Your dashboard lives at **<https://yummyvoo.com/dashboard>**.
 
 The marketing site at `/` is completely untouched — the dashboard code is

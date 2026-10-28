@@ -1,8 +1,8 @@
 // Google Sheets backend client (via Apps Script Web App).
 // Config comes from Vite env vars — see dashboard-backend/SETUP.md.
 
-const API_URL = import.meta.env.VITE_DASHBOARD_API_URL || ''
-const API_TOKEN = import.meta.env.VITE_DASHBOARD_API_TOKEN || ''
+const API_URL = import.meta.env.DASHBOARD_API_URL || ''
+const API_TOKEN = import.meta.env.DASHBOARD_API_TOKEN || ''
 
 export const isConfigured = () => Boolean(API_URL && API_TOKEN)
 
